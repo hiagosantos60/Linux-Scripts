@@ -14,7 +14,7 @@ top -b -n 1 | head -n 3
 
 echo "                                    "
 
-echo "==== Top 5 processes by CPU usage ===="
+echo "==== Top 5 processes by CPU and Mem usage ===="
 ps aux --sort=-%mem | head -n 6 | awk '{print $1, $2, $3, $4, $11}'
 
 echo "                                    "
