@@ -1,5 +1,6 @@
 #!/bin/bash
 # server-status.sh
+# EXECUTE ESSE SCRIPT COMO SUPERUSER -> sudo bash server-status.sh
 
 export LANG=en_US.UTF-8
 
